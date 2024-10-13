@@ -5,7 +5,7 @@ class A{
     }
 }
 class B extends A{
-    @java.lang.Override
+    @java.lang.Override //
     public void meth() {
         System.out.println("Method is overridden in Extendend class B");
     }
